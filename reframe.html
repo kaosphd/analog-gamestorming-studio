@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Reframe Mode</title>
+
+  <link rel="stylesheet" href="assets/styles.css">
+
+</head>
+
+<body class="reframe-mode">
+
+  <div id="nav"></div>
+
+  <div class="page-section">
+
+    <h1>🌿 Reframe Studio</h1>
+
+    <p>
+      Use creative constraints and
+      perspective shifts to unblock
+      design thinking.
+    </p>
+
+    <div class="button-row">
+
+      <button onclick="drawReframe('simplify')">
+        🪶 Simplify
+      </button>
+
+      <button onclick="drawReframe('invert')">
+        🔄 Invert
+      </button>
+
+      <button onclick="drawReframe('embody')">
+        🎭 Embody
+      </button>
+
+      <button onclick="drawReframe('compress')">
+        ⚡ Compress
+      </button>
+
+      <button onclick="drawReframe('reflect')">
+        🌱 Reflect
+      </button>
+
+    </div>
+
+    <div class="button-row">
+
+      <button onclick="clearCards()">
+        🧹 Clear
+      </button>
+
+      <button onclick="exportCards()">
+        📋 Export
+      </button>
+
+    </div>
+
+    <div
+      id="card-area"
+      class="card-grid">
+    </div>
+
+  </div>
+
+  <script src="packs/entrepreneurship.js"></script>
+
+  <script src="js/core.js"></script>
+  <script src="js/nav.js"></script>
+
+  <script src="js/modes/reframe.js"></script>
+
+</body>
+
+</html>
