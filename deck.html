@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Deck Engine</title>
+
+  <link rel="stylesheet" href="assets/styles.css">
+
+</head>
+
+<body>
+
+  <div id="nav"></div>
+
+  <div class="page-section">
+
+    <h1>Deck Engine</h1>
+
+    <p>
+      Generate individual prompts, mechanics,
+      tones, and constraints.
+    </p>
+
+    <div class="button-row">
+
+      <button onclick="drawElement('mechanics')">
+        Mechanic
+      </button>
+
+      <button onclick="drawElement('settings')">
+        Setting
+      </button>
+
+      <button onclick="drawElement('tones')">
+        Tone
+      </button>
+
+      <button onclick="drawElement('wildcards')">
+        Wildcard
+      </button>
+
+    </div>
+
+    <div class="button-row">
+
+      <button onclick="rerollAll()">
+        🔄 Reroll Unpinned
+      </button>
+
+      <button onclick="clearCards()">
+        🧹 Clear
+      </button>
+
+      <button onclick="exportCards()">
+        📋 Export
+      </button>
+
+    </div>
+
+    <div
+      id="card-area"
+      class="card-grid">
+    </div>
+
+  </div>
+
+  <script src="packs/entrepreneurship.js"></script>
+
+  <script src="js/core.js"></script>
+  <script src="js/nav.js"></script>
+
+  <script src="js/modes/deck.js"></script>
+
+</body>
+
+</html>
