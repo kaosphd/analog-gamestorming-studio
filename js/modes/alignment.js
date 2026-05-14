@@ -5,33 +5,53 @@ function generateAlignment() {
   const area =
     document.getElementById("card-area");
 
-  const cards = [
+  const sequence = [
 
-    createCard(
-      "learning outcome",
-      pick(pack.learningOutcomes)
-    ),
+    {
+      type: "learning outcome",
+      value: pick(pack.learningOutcomes)
+    },
 
-    createCard(
-      "concept",
-      pick(pack.concepts)
-    ),
+    {
+      type: "concept",
+      value: pick(pack.concepts)
+    },
 
-    createCard(
-      "mechanic bridge",
-      pick(pack.bridges)
-    ),
+    {
+      type: "mechanic bridge",
+      value: pick(pack.bridges)
+    },
 
-    createCard(
-      "assessment",
-      pick(pack.assessments)
-    )
+    {
+      type: "assessment",
+      value: pick(pack.assessments)
+    }
 
   ];
 
-  cards.forEach(card => {
-    area.prepend(card);
+  sequence.forEach((item, index) => {
+
+    const card =
+      createCard(item.type, item.value);
+
+    area.appendChild(card);
+
+    // add connector except after last card
+    if (index < sequence.length - 1) {
+
+      const arrow =
+        document.createElement("div");
+
+      arrow.className =
+        "alignment-arrow";
+
+      arrow.innerText = "↓";
+
+      area.appendChild(arrow);
+    }
+
   });
+
 }
 
 function rerollCard(button) {
