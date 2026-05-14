@@ -69,6 +69,6 @@ window.PACKS = {
       "What assumptions are built into the mechanics?"
     ]
 
-},
+}
   
 };
