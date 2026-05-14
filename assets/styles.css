@@ -211,3 +211,19 @@ body.alignment-mode {
 body.prototype-mode {
   background: #f7f4ee;
 }
+
+/* =========================
+   ALIGNMENT FLOW
+========================= */
+
+.alignment-arrow {
+
+  text-align: center;
+
+  font-size: 28px;
+
+  opacity: 0.4;
+
+  margin: -4px 0;
+
+}
