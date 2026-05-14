@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Alignment Mode</title>
+
+  <link rel="stylesheet" href="assets/styles.css">
+
+</head>
+
+<body class="alignment-mode">
+
+  <div id="nav"></div>
+
+  <div class="page-section">
+
+    <h1>🎓 Alignment Studio</h1>
+
+    <p>
+      Connect learning outcomes,
+      concepts, mechanics,
+      and assessment approaches.
+    </p>
+
+    <div class="button-row">
+
+      <button onclick="generateAlignment()">
+        🎲 Generate Alignment
+      </button>
+
+      <button onclick="clearCards()">
+        🧹 Clear
+      </button>
+
+      <button onclick="exportCards()">
+        📋 Export
+      </button>
+
+    </div>
+
+    <div
+      id="card-area"
+      class="card-grid">
+    </div>
+
+  </div>
+
+  <script src="packs/entrepreneurship.js"></script>
+
+  <script src="js/core.js"></script>
+  <script src="js/nav.js"></script>
+
+  <script src="js/modes/alignment.js"></script>
+
+</body>
+
+</html>
