@@ -70,63 +70,58 @@ window.PACKS = {
 
     },
 
-        learningOutcomes: [
-    
+    learningOutcomes: [
+
       "Evaluate opportunity recognition under uncertainty",
-    
+
       "Apply effectuation logic in resource-constrained environments",
-    
+
       "Iterate business models through rapid prototyping",
-    
+
       "Co-create value with users under ambiguity",
-    
+
       "Reframe constraints as generative design inputs"
-    
+
     ],
-    
+
     concepts: [
-    
+
       "Effectuation theory",
-    
+
       "Entrepreneurial bricolage",
-    
+
       "Lean startup logic",
-    
+
       "Opportunity emergence",
-    
+
       "Value co-creation"
-    
+
     ],
-    
+
     bridges: [
-    
+
       "Hidden information systems model uncertainty.",
-    
+
       "Push-your-luck mechanics simulate entrepreneurial risk.",
-    
+
       "Shared resources encourage collaborative strategy.",
-    
+
       "Rapid iteration mechanics mirror lean startup cycles."
-    
+
     ],
-    
+
     assessments: [
-    
+
       "Reflect on strategic decision-making.",
-    
+
       "Justify gameplay choices using theory.",
-    
+
       "Analyse emergent player behaviour.",
-    
+
       "Connect mechanics to learning outcomes."
-    
+
     ]
-    
-      }
+
+  }
 
 };
-
-
-
-
-
