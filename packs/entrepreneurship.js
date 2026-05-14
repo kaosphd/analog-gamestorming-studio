@@ -29,9 +29,9 @@ window.PACKS = {
       "Rules change halfway through",
       "Everyone shares resources",
       "One player knows hidden information"
-    ]
+    ],
 
-  }
+  
 
   reframes: {
 
