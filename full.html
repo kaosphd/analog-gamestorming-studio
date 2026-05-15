@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Full Generator</title>
+
+  <link rel="stylesheet" href="assets/styles.css">
+
+</head>
+
+<body>
+
+  <div id="nav"></div>
+
+  <div class="page-section">
+
+    <h1>🧩 Full Concept Generator</h1>
+
+    <p>
+      Generate complete analogue
+      game concept foundations
+      for rapid ideation.
+    </p>
+
+    <div class="button-row">
+
+      <button onclick="generateFullConcept()">
+        🎲 Generate Full Concept
+      </button>
+
+      <button onclick="clearCards()">
+        🧹 Clear
+      </button>
+
+      <button onclick="exportCards()">
+        📋 Export
+      </button>
+
+    </div>
+
+    <div
+      id="card-area"
+      class="card-grid">
+    </div>
+
+  </div>
+
+  <script src="packs/entrepreneurship.js"></script>
+
+  <script src="js/core.js"></script>
+  <script src="js/nav.js"></script>
+
+  <script src="js/modes/full.js"></script>
+
+</body>
+
+</html>
