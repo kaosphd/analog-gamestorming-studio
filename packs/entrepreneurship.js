@@ -12,7 +12,7 @@ window.PACKS = {
       "Cooperative challenge",
       "Tabletop simulation",
       "Microgame"
-    
+
     ],
 
     mechanics: [
