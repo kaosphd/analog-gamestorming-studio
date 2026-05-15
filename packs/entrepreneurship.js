@@ -86,13 +86,9 @@ window.PACKS = {
     learningOutcomes: [
 
       "Evaluate opportunity recognition under uncertainty",
-
       "Apply effectuation logic in resource-constrained environments",
-
       "Iterate business models through rapid prototyping",
-
       "Co-create value with users under ambiguity",
-
       "Reframe constraints as generative design inputs"
 
     ],
@@ -100,13 +96,9 @@ window.PACKS = {
     concepts: [
 
       "Effectuation theory",
-
       "Entrepreneurial bricolage",
-
       "Lean startup logic",
-
       "Opportunity emergence",
-
       "Value co-creation"
 
     ],
@@ -114,11 +106,8 @@ window.PACKS = {
     bridges: [
 
       "Hidden information systems model uncertainty.",
-
       "Push-your-luck mechanics simulate entrepreneurial risk.",
-
       "Shared resources encourage collaborative strategy.",
-
       "Rapid iteration mechanics mirror lean startup cycles."
 
     ],
@@ -126,11 +115,8 @@ window.PACKS = {
     assessments: [
 
       "Reflect on strategic decision-making.",
-
       "Justify gameplay choices using theory.",
-
       "Analyse emergent player behaviour.",
-
       "Connect mechanics to learning outcomes."
 
     ],
@@ -139,53 +125,41 @@ window.PACKS = {
 
   prototype: {
 
-  mvp: [
-
-    "What is the smallest playable version of this idea?",
-
-    "Reduce the game to one core decision.",
-
-    "What can players test in under 5 minutes?",
-
-    "Strip away all non-essential mechanics."
-
-  ],
-
-  components: [
-
-    "Prototype using only paper and markers.",
-
-    "Represent resources with tokens or coins.",
-
-    "Use index cards for all interactions.",
-
-    "Use physical positioning as a system."
-
-  ],
-
-  playtest: [
-
-    "Observe where players hesitate.",
-
-    "Watch for dominant strategies.",
-
-    "Notice emotional reactions during failure.",
-
-    "Track moments of confusion or negotiation."
-
-  ],
-
-  constraints: [
-
-    "No written rules longer than 3 sentences.",
-
-    "Each turn must take under 30 seconds.",
-
-    "Players may only communicate indirectly.",
-
-    "The full game must fit on one table."
-
-  ]
+    mvp: [
+  
+      "What is the smallest playable version of this idea?",
+      "Reduce the game to one core decision.",
+      "What can players test in under 5 minutes?",
+      "Strip away all non-essential mechanics."
+  
+    ],
+  
+    components: [
+  
+      "Prototype using only paper and markers.",
+      "Represent resources with tokens or coins.",
+      "Use index cards for all interactions.",
+      "Use physical positioning as a system."
+  
+    ],
+  
+    playtest: [
+  
+      "Observe where players hesitate.",
+      "Watch for dominant strategies.",
+      "Notice emotional reactions during failure.",
+      "Track moments of confusion or negotiation."
+  
+    ],
+  
+    constraints: [
+  
+      "No written rules longer than 3 sentences.",
+      "Each turn must take under 30 seconds.",
+      "Players may only communicate indirectly.",
+      "The full game must fit on one table."
+  
+    ]
 
 }
 
