@@ -2,6 +2,19 @@ window.PACKS = {
 
   entrepreneurship: {
 
+    gameTypes: [
+
+      "Board game",
+      "Card game",
+      "Roleplaying game",
+      "Negotiation game",
+      "Social deduction game",
+      "Cooperative challenge",
+      "Tabletop simulation",
+      "Microgame"
+    
+    ],
+
     mechanics: [
       "Drafting",
       "Negotiation",
