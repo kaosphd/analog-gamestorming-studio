@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Prototype Mode</title>
+
+  <link rel="stylesheet" href="assets/styles.css">
+
+</head>
+
+<body class="prototype-mode">
+
+  <div id="nav"></div>
+
+  <div class="page-section">
+
+    <h1>✂ Prototype Studio</h1>
+
+    <p>
+      Reduce ideas into minimum
+      playable prototypes for
+      rapid experimentation.
+    </p>
+
+    <div class="button-row">
+
+      <button onclick="generatePrototype()">
+        ✂ Generate Prototype Prompt
+      </button>
+
+      <button onclick="clearCards()">
+        🧹 Clear
+      </button>
+
+      <button onclick="exportCards()">
+        📋 Export
+      </button>
+
+    </div>
+
+    <div
+      id="card-area"
+      class="card-grid">
+    </div>
+
+  </div>
+
+  <script src="packs/entrepreneurship.js"></script>
+
+  <script src="js/core.js"></script>
+  <script src="js/nav.js"></script>
+
+  <script src="js/modes/prototype.js"></script>
+
+</body>
+
+</html>
