@@ -121,8 +121,6 @@ window.PACKS = {
 
     ],
 
-  }
-
     prototype: {
   
       mvp: [
@@ -162,7 +160,7 @@ window.PACKS = {
       ]
   
   }
- 
+ } 
 
 };
 
