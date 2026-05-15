@@ -121,7 +121,7 @@ window.PACKS = {
 
     ],
 
-  },
+  
 
   prototype: {
 
